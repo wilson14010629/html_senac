@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-sp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display flex</title>
+    <style>
+        .pai{
+            display: flex;
+            /*ROW - Linha*/
+            justify-content: space;
+            align-items: center;
+            height: 300px;
+            background-color: aqua;
+            text-align: center;
+            height: 500px;
+            gap: 15px;
+            flex-wrap: wrap;
+
+
+
+        }
+        .filha {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            background-color: aqua;
+            text-align: center;
+        }
+        .dois{
+            flex: 50%
+            ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Display</h1>
+    <h2>flex</h2>
+    <div class="filha">iten1</div>
+    <div class="filha dois">iten2</div>
+    <div class="filha">iten3</div>
+    <div class="filha">iten4</div>
+    <div class="filha">iten5</div>
+    <div class="filha">iten6</div>
+        
+</body>
+</html>
